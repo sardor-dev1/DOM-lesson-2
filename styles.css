@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to right, #5758ce, #ba52c3);
+}
+
+table {
+  width: 80%;
+  margin: 80px auto 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: lightgray;
+}
+
+tbody tr:nth-child(odd) td {
+  background-color: white;
+}
